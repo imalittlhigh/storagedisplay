@@ -1,5 +1,6 @@
 {
     "values": [
-        "stdisp:meta/load"
+        "stdisp:meta/load",
+        "stdisp:meta/5tick"
     ]
     }
