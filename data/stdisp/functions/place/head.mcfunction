@@ -15,5 +15,6 @@ execute if block ~ ~ ~ #stdisp:heads if block ~ ~-1 ~ #stdisp:chests run summon 
 execute if block ~ ~ ~ #stdisp:heads if block ~ ~-1 ~ #stdisp:full_blocks run summon item_display ~-0.5 ~-0.5 ~-0.5 {Tags:["stdisp.itemdisplay.full_block","stdisp.itemdisplay","stdisp.itemdisplay.top"],item:{id:"minecraft:structure_void",Count:1},item_display:"ground",transformation:[0.8125f,0.0000f,0.0000f,0.4375f,0.0000f,-0.0000f,-0.8125f,0.0000f,0.0000f,0.8125f,-0.0000f,0.4375f,0.0000f,0.0000f,0.0000f,1.0000f]}
 execute if block ~ ~ ~ #stdisp:heads if block ~ ~-1 ~ #stdisp:full_blocks run summon interaction ~-0.06 ~-0.5 ~0.03 {Tags:["stdisp.interaction.full_block","stdisp.interaction","stdisp.interaction.top"],NoGravity:1b,width:0.4f,height:0.1f,response:1b}
 
+execute unless block ~ ~-1 ~ #stdisp:viable_blocks run loot spawn ~ ~ ~ loot stdisp:stdisp_summon
 
 fill ~ ~ ~ ~ ~ ~ air replace #stdisp:heads
