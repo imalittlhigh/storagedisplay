@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GCG",
+        "GBG",
+        "GCG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass_pane"
+        },
+        "C": {
+            "item": "minecraft:copper_ingot"
+        },
+        "B": {
+            "item": "minecraft:book"
+        }
+    },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

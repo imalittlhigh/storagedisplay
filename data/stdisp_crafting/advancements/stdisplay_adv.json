@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "blank_crafting:blank"
+                "recipe": "stdisp_crafting:stdisplay"
             }
         }
     },
     "rewards": {
-        "function": "blank_crafting:crafted/blank"
+        "function": "stdisp_crafting:crafted/stdisplay"
     }
 }
