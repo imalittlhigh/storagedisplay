@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "geta": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:copper_ingot"
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "stdisp:storage_display"
+      ]
+    }
+  }

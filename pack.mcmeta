@@ -1,6 +1,21 @@
 {
 	"pack": {
-		"pack_format": 15,
-		"description": "Storage Displays by imalittlhigh"
+	  "pack_format": 61,
+	  "description": {
+		"text": "Storage Displays",
+		"color": "gold",
+		"extra": [
+		  {
+			"text": " by ",
+			"color": "aqua"
+		  },
+		  {
+			"text": "imalittlhigh",
+			"color": "gold",
+			"italic": true
+		  }
+		]
+	  }
 	}
-}
+  }
+  

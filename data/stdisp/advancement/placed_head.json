@@ -8,8 +8,8 @@
               "condition": "minecraft:location_check",
               "predicate": {
                 "block": {
-                    "tag": "stdisp:heads",
-                  "nbt": "{SkullOwner:{Name:\"$stdisp.block.display\"}}"
+                    "blocks": "#stdisp:heads",
+                  "nbt": "{\"profile\": {\"name\": \"$stdisp.display\"}}"
                 }
               }
             }

@@ -7,6 +7,7 @@
 #this adv triggers the raycast from the player
 advancement revoke @s only stdisp:placed_head
 
+say init
 
 #this score is to not run the cast forever (so limit how far it can travel)
 scoreboard players set $stdisp.i stdisp.dummy 0

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "geta": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:book"
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "stdisp:storage_display"
+      ]
+    }
+  }
