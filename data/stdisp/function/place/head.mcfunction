@@ -5,7 +5,6 @@
  # Created by imalittlhigh.
 ##
 
-say head
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=stdisp.itemdisplay,distance=..0.15] run fill ~ ~ ~ ~ ~ ~ air replace #stdisp:heads
 execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=stdisp.itemdisplay,distance=..0.15] positioned ~0.5 ~0.62 ~0.5 run loot spawn ~ ~ ~ loot stdisp:stdisp_summon

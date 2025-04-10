@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": "{\"text\":\"Storage Display\",\"italic\":false}",
+                "minecraft:custom_name": {"text":"Storage Display","italic":false},
                 "minecraft:profile": {
                   "name": "$stdisp.display",
                   "id": [
